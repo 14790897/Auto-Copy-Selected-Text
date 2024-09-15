@@ -1,4 +1,5 @@
 [English](readme_en.md)
+
 ### 自动复制选中文本 - 简单说明
 
 由于 chatgpt 网页上大多数自动复制脚本都不能工作，所以自己写了一个
@@ -15,11 +16,16 @@
 
 #### 安装
 
+##### 在线安装
+
+https://greasyfork.org/zh-CN/scripts/508566-auto-copy-selected-text
+
+##### 手动安装
+
 1. 安装 [Tampermonkey 插件](https://www.tampermonkey.net/)。
 2. 在 Tampermonkey 中创建一个新脚本。
 3. 将脚本代码复制并粘贴到编辑器中。
 4. 保存脚本。
-   或者在线安装 https://greasyfork.org/zh-CN/scripts/508566-auto-copy-selected-text
 
 #### 使用方法
 
