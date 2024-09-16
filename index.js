@@ -7,6 +7,7 @@
 // @match        *://*/*
 // @grant        none
 // @license      MIT
+// @icon         https://icons.iconarchive.com/icons/gartoon-team/gartoon-places/256/user-desktop-icon.png
 // ==/UserScript==
 
 (function () {
