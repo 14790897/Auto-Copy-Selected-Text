@@ -24,7 +24,10 @@
         navigator.clipboard
           .writeText(selectedText)
           .then(() => {
-            console.log("Text copied to clipboard:", selectedText);
+            console.log(
+              "Text copied to clipboard in navigator clipboard:",
+              selectedText
+            );
           })
           .catch((err) => {
             console.error("Failed to copy text to clipboard", err);
@@ -36,14 +39,13 @@
         tempElement.select();
         try {
           document.execCommand("copy");
-          console.log("Text copied to clipboard:", selectedText);
+          console.log("Text copied to clipboard in execCommand:", selectedText);
+          selection.addRange(range);
         } catch (err) {
           console.error("Failed to copy text to clipboard", err);
         }
         document.body.removeChild(tempElement);
       }
-      selection.removeAllRanges();
-      selection.addRange(range);
     }
   });
 })();
