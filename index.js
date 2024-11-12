@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Auto Copy Selected Text
 // @namespace    http://tampermonkey.net/
-// @version      1.5
+// @version      1.6
 // @description  Automatically copy selected text to clipboard and keep the selection
 // @author       liuweiqing
 // @match        *://*/*
